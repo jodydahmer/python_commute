@@ -7,7 +7,7 @@ class Person:
         self.surname = surname
         self.birthdate = birthdate
 
-        self.address = address
+        self.neighborhood = neighborhood
         self.telephone = telephone
         self.email = email
 
@@ -24,8 +24,8 @@ person = Person(
     "Jane",
     "Doe",
     datetime.date(1992, 3, 12), # year, month, day
-    "No. 12 Short Street, Greenville",
-    "555 456 0987",
+    "Smoketown",
+    "555 867 5309",
     "jane.doe@example.com"
 )
 
