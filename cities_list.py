@@ -22,8 +22,8 @@ def more_or_less() :
     else:
         print("less")
 
-
+print(city_commute[0][3])
 print("Here are some cities and their average commute times: ")
 week_number = 1
 for city in city_commute: 
-    print("* If you lived in {}, you would have a {} minute commute! That means you are {} minutes more than the national average." .format(city_commute[0][0],city_commute[0][3],commute_diff)
+    print("* If you lived in {}, you would have a {} minute commute! That means you are {} minutes {} than the national average." .format(city_commute[0][0],city_commute[0][3],commute_diff,more_or_less))
