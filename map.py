@@ -4,7 +4,7 @@
 
 
 # Ideas
-# 
+# I want to eventually put this 
 #Scooters - Lou Metro Open Data
 #Map Data Google Maps KSV Export
 #Tweepy and pandas using keyword "commute"
@@ -22,4 +22,20 @@ Commute()
 
 
 
-#How to use MyMaps with Python , pandas 
+##Hours_remaining -= daily_commute
+
+
+
+#Make an list showing average commute times of cities
+
+#City
+#Commute in Minutes (*60 for hours)
+#Region of US
+
+
+#Chicago_commute = 
+#["
+    #"Chicago"
+    #"30"
+    #"Midwest"
+

@@ -10,6 +10,40 @@ For this class, I am writing a very basic start to a larger idea of scrubbing so
 I want to eventually put this "Commute Calculator" on a webpage that I can use what I learned in the Front End Development Course to make a linkable,educational page.
 
 
+
+BASIC VERSION
+
+This will ask the user input questions about their commute, calculate different times based on days and years spent commuting, then compare their input commute time to city averages stored in lists. 
+
+
+
+Build a conversion tool that converts user input to another type and displays it (ex: converts cups to grams)
+
+Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)
+
+
+Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
+
+
+Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
+
+
+INTERMEDIATE (NOT FOR CODE LOUISVILLE, LATER DATE)
+
+Use pandas, matplotlib, and/or numpy to perform a data analysis project. Ingest 2 or more pieces of data, analyze that data in some manner, and display a new result to a graph, chart, or other display
+
+Implement a “scraper” that can be fed a type of file or URL and pull information off of it. For example, a web scraper that lets you provide any website URL and it will find certain keywords on the page
+
+
+
+
+
+
+
+
+
+
+
 #Scooters - Lou Metro Open Data
 #Map Data Google Maps KSV Export
 #Tweepy and pandas using keyword "commute"

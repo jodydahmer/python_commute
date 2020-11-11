@@ -16,7 +16,7 @@ try:
     user_commute_time = int(user_commute_time)
     if user_commute_time > Hours_remaining:
         raise ValueError("There are only {} hours in a day!".format(Hours_remaining))
-    except ValueError:
+        except ValueError:
         print("Oh no, we need to be able to use a number!")
     else:
 
@@ -27,32 +27,12 @@ try:
 
 
         #Ask user if they want to proceed
-
-        should_proceed = input("Do you want to proceed? y/n")
-
-
-        if should_proceed.lower() == "y" : 
+should_proceed = input("Do you want to proceed? y/n")
+        
+    if should_proceed.lower() == "y" : 
 
             #Print out to the screen difference in hours when days total is displayed
                 print("You have {} hours remaining in your day once we subtract your commute!".format(Hours_remaining))
             #And then decrement the commute time total from  total hours remaining in day 
 
-        Hours_remaining -= daily_commute
-
-
-
-#Make an list showing average commute times of cities
-
-#City
-#Commute in Minutes (*60 for hours)
-#Region of US
-
-
-Chicago_commute = 
-
-["
-    "Chicago"
-    "30"
-    "Midwest"
-
-]
+Hours_remaining -= daily_commute
