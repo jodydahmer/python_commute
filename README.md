@@ -1,4 +1,9 @@
 # python_map
+----Application Requirements--- 
+Python Version 3 or Higher 
+datetime package 
+Operate from terminal: file path to final.py
+
 Code Louisville 2020 Python Data Visualization Mapping
 
 I make maps for a living, and am very interested in combining Census data with road data in order to see and visualize how cut off roads and one-way streets have contributed to our segregated city today. 
@@ -15,17 +20,23 @@ BASIC VERSION
 
 This will ask the user input questions about their commute, calculate different times based on days and years spent commuting, then compare their input commute time to city averages stored in lists. 
 
+YOU WILL NEED TO IMPORT:
+import os
+import datetime
+import re
+
+Python Class Requirements:
+
+1.Build a conversion tool that converts user input to another type and displays it (ex: converts cups to grams)
+
+2.Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)
 
 
-Build a conversion tool that converts user input to another type and displays it (ex: converts cups to grams)
+3.Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
 
-Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)
+4.Create a class, then create at least one object of that class and populate it with data
 
-
-Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
-
-
-Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
+5.Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
 
 
 INTERMEDIATE (NOT FOR CODE LOUISVILLE, LATER DATE)
