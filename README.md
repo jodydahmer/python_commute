@@ -10,15 +10,11 @@ I make maps for a living, and am very interested in combining Census data with r
 
 This got me interested in commute times. In a city like Louisville where we don't have any major transit or bike networks, commute to work is literally how people decide where to live. 
 
-For this class, I am writing a very basic start to a larger idea of scrubbing social media. 
-
-I want to eventually put this "Commute Calculator" on a webpage that I can use what I learned in the Front End Development Course to make a linkable,educational page.
+For this class, I am writing a very basic start to a larger idea of scrubbing social media for commute times using Tweepy.
 
 
+BASIC VERSION (Graded for Code Louisville)
 
-BASIC VERSION
-
-This will ask the user input questions about their commute, calculate different times based on days and years spent commuting, then compare their input commute time to city averages stored in lists. 
 
 YOU WILL NEED TO IMPORT:
 import os
@@ -27,7 +23,7 @@ import re
 
 Python Class Requirements:
 
-1.Build a conversion tool that converts user input to another type and displays it (ex: converts cups to grams)
+1.Build a conversion tool that converts user input to another type and displays it (I will be converting user input commute time in minutes to hours)
 
 2.Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)
 
