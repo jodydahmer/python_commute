@@ -2,9 +2,9 @@
 ----Application Requirements--- 
 Python Version 3 or Higher 
 datetime package 
-Operate from terminal: file path to final.py
+Operate from terminal: file path to final_python.py
 
-Code Louisville 2020 Python Data Visualization Mapping
+Code Louisville 2020 Python Commute Calculator and (Future) Maps
 
 I make maps for a living, and am very interested in combining Census data with road data in order to see and visualize how cut off roads and one-way streets have contributed to our segregated city today. 
 
@@ -17,22 +17,17 @@ BASIC VERSION (Graded for Code Louisville)
 
 
 YOU WILL NEED TO IMPORT:
-import os
 import datetime
-import re
+import math
 
 Python Class Requirements:
 
-1.Build a conversion tool that converts user input to another type and displays it (I will be converting user input commute time in minutes to hours)
+1.Build a conversion tool that converts user input to another type and displays it (I will be converting user input commute time in minutes to hours to days)
 
-2.Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)
+2.Calculate and display data based on an external factor 
 
+3.Create a class, then create at least one object of that class and populate it with data
 
-3.Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
-
-4.Create a class, then create at least one object of that class and populate it with data
-
-5.Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
 
 
 INTERMEDIATE (NOT FOR CODE LOUISVILLE, LATER DATE)
